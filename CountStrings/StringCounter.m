@@ -24,12 +24,12 @@
 }
 
 
-- (unsigned long) countTheVowels
+- (int) countTheVowels
 {
     //find the vowels in the string; store in array 'vowels'
     NSArray *vowels = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"aeiou"]];
     
-    unsigned long vowelCount = [vowels count];
+    int vowelCount = [vowels count];
     
     return vowelCount;
     
