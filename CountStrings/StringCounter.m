@@ -14,7 +14,7 @@
 
 @synthesize myString;
 
-- (int) countTheWords:(NSString *)myString
+- (int) countTheWords
 {
     NSArray *words = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
@@ -24,7 +24,7 @@
 }
 
 
-- (int) countTheVowels:(NSString *)myString
+- (int) countTheVowels
 {
     //find the vowels in the string; store in array 'vowels'
     NSArray *vowels = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"aeiou"]];

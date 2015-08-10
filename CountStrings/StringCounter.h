@@ -16,9 +16,9 @@
 
 - (void) setMyString:(NSString *)s;
 
-- (int) countTheWords:(NSString *)myString;
+- (int) countTheWords;
 
-- (int) countTheVowels:(NSString *)myString;
+- (int) countTheVowels;
 
 
 @end

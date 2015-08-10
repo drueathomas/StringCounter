@@ -17,11 +17,12 @@ int main(int argc, const char * argv[]) {
         StringCounter *string1;
         
         [string1 setMyString:@"Hello World"];
-        [string1 countTheVowels:NSString];
-        [string1 countTheWords:myString];
+        int vowels = [string1 countTheVowels];
+        int words = [string1 countTheWords];
         
         
-       
+        NSLog(@"There are %d words and %d vowels in the string", words, vowels);
+        
         
         
     }
