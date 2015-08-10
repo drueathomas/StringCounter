@@ -12,7 +12,7 @@
 
 @interface StringCounter: NSObject
 
-@property NSString* myString;
+@property NSString *myString;
 
 - (void) setMyString:(NSString *)s;
 
