@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         
         StringCounter *string1 = [[StringCounter alloc] init];
         
-        NSString *sentence = @"Hello my name is Drue Thomas";
+        NSString *sentence = @"aueio";
         
         [string1 setMyString:sentence];
         int vowels = [string1 countTheVowels];

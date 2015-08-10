@@ -29,7 +29,7 @@
     //find the vowels in the string; store in array 'vowels'
     NSArray *vowels = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"aeiou"]];
     
-    int vowelCount = [vowels count];
+    int vowelCount = [vowels count]-1;
     
     return vowelCount;
     
