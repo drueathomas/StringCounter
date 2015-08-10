@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
         int words = [string1 countTheWords];
         
         
-        NSLog(@"There are %d words and %d vowels in the string", words, vowels);
+        NSLog(@"string = \"%@\". There are %d words and %d vowels in this string.", sentence, words, vowels);
         
         
         
