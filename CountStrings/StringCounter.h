@@ -12,6 +12,9 @@
 
 @interface StringCounter: NSObject
 
+@property NSString* myString;
+
+- (void) setMyString:(NSString *)s;
 
 - (int) countTheWords:(NSString *)myString;
 

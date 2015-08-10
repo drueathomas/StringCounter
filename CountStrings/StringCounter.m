@@ -12,6 +12,8 @@
 
 @implementation StringCounter : NSObject
 
+@synthesize myString;
+
 - (int) countTheWords:(NSString *)myString
 {
     NSArray *words = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];

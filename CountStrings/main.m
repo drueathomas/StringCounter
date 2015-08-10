@@ -14,14 +14,14 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         
-        StringCounter *string;
+        StringCounter *string1;
         
-        NSString *myString = @"This is the string I am counting";
+        [string1 setMyString:@"Hello World"];
+        [string1 countTheVowels:NSString];
+        [string1 countTheWords:myString];
         
-        int words = [string countTheWords:myString];
-        int vowels = [string countTheVowels:myString];
         
-        NSLog(@"The string \"%@\" has %ld words and %ld vowels", myString, (long)words, (long)vowels);
+       
         
         
     }
