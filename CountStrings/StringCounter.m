@@ -12,22 +12,22 @@
 
 @implementation StringCounter : NSObject
 
-- (NSInteger) countTheWords:(NSString *)myString
+- (int) countTheWords:(NSString *)myString
 {
     NSArray *words = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
-    NSInteger wordCount = [words count];
+    int wordCount = [words count];
     
     return wordCount;
 }
 
 
-- (NSInteger) countTheVowels:(NSString *)myString
+- (int) countTheVowels:(NSString *)myString
 {
     //find the vowels in the string; store in array 'vowels'
     NSArray *vowels = [myString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"aeiou"]];
     
-    NSInteger vowelCount = [vowels count];
+    int vowelCount = [vowels count];
     
     return vowelCount;
     

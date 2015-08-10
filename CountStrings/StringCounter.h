@@ -13,9 +13,9 @@
 @interface StringCounter: NSObject
 
 
-- (NSInteger) countTheWords:(NSString *)myString;
+- (int) countTheWords:(NSString *)myString;
 
-- (NSInteger) countTheVowels:(NSString *)myString;
+- (int) countTheVowels:(NSString *)myString;
 
 
 @end

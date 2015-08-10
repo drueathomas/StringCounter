@@ -18,8 +18,8 @@ int main(int argc, const char * argv[]) {
         
         NSString *myString = @"This is the string I am counting";
         
-        NSInteger words = [string countTheWords:myString];
-        NSInteger vowels = [string countTheVowels:myString];
+        int words = [string countTheWords:myString];
+        int vowels = [string countTheVowels:myString];
         
         NSLog(@"The string \"%@\" has %ld words and %ld vowels", myString, (long)words, (long)vowels);
         
